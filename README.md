@@ -1,6 +1,6 @@
 # Ball and Plate Control Using Neuro-Fuzzy Networks
 
-Repository created in September 2022. Reorganized and cleaned up in October 2026 (file structure and README only, the code is as it was written at the time, except where the README notes a fix).
+Repository created in September 2022. Reorganized and cleaned up in October 2026.
 
 Course project for EEN-351 (Artificial Neural Networks), IIT Roorkee, November 2022.
 
