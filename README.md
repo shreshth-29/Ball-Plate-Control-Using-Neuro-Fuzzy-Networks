@@ -1,5 +1,7 @@
 # Ball and Plate Control Using Neuro-Fuzzy Networks
 
+Repository created in September 2022. Reorganized and cleaned up in October 2026 (file structure and README only, the code is as it was written at the time, except where the README notes a fix).
+
 Course project for EEN-351 (Artificial Neural Networks), IIT Roorkee, November 2022.
 
 A ball rests on a flat plate whose tilt about two axes (angles alpha and beta) is set by two servo motors. The goal is to tilt the plate so that the ball tracks a desired trajectory on the plate surface, in this case a Lissajous curve. This repository contains MATLAB simulations of four controllers for that task: a hand-designed Mamdani fuzzy controller, a neuro-fuzzy controller whose consequent parameters are learned by backpropagation, a classical PID controller, and a combined neuro-fuzzy plus PID controller. The full write-up is in [reports/Ball_n_Plate_NeuroFuzzy.pdf](reports/Ball_n_Plate_NeuroFuzzy.pdf).
