@@ -1,6 +1,6 @@
 %% Training phase for finding the weight matrices P for alpha and beta %%
 
-function[p1,p2]=train_fuzzy(learning_rate,time_step,time_span,A,B,init_condition)
+function[p1,p2]=train_fuzzy_pid(learning_rate,time_step,time_span,A,B,init_condition)
 
     rand('seed',1) %setting the seed
 

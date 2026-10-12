@@ -22,7 +22,7 @@ A=[0 1 0 0;0 0 0 0;0 0 0 1;0 0 0 0];
 B=[0 0;K 0;0 0;0 K];
 
 %Getting the appropriate weight matrices after training
-[p1,p2]=train_fuzzy(learning_rate,time_step,5*time_span,A,B,init_conditions_train)
+[p1,p2]=train_fuzzy_pid(learning_rate,time_step,5*time_span,A,B,init_conditions_train)
 
 %% Testing %%
 
